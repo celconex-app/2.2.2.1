@@ -1,0 +1,23 @@
+@echo off
+SET REPO_URL=https://github.com/arturoochoa06/celconex-app.git
+
+echo 🔧 Inicializando repositorio Git...
+git init
+
+echo ✅ Agregando archivos...
+git add .
+
+echo 💬 Haciendo primer commit...
+git commit -m "🚀 Versión inicial de Celconex"
+
+echo 📌 Estableciendo rama principal...
+git branch -M main
+
+echo 🔗 Agregando origen remoto...
+git remote add origin %REPO_URL%
+
+echo 🚀 Haciendo push al repositorio en GitHub...
+git push -u origin main
+
+echo ✅ Repositorio subido correctamente.
+pause
