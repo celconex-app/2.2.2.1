@@ -25,9 +25,9 @@
 | Versión | Estado | Notas |
 |--------|--------|--------|
 | `v1.0` | ✅ Completado | Instalador, login y backend |
-| `v1.1` | 🧩 En desarrollo | Compartir datos entre usuarios |
+| `v1.1` | 🧩 Completado| Compartir datos entre usuarios |
 | `v1.2` | 🔬 Planificado | Control remoto de conexión |
-| `v2.0` | 🚧 En diseño | Panel web administrador |
+| `v2.0` | 🚧   En uso| Panel web administrador |
 
 ---
 
